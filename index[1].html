@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Developer | Upwork Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      min-height: 100vh;
+    }
+
+    .top-half {
+      height: 50vh;
+      background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') no-repeat center center/cover;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .top-half h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .top-half p {
+      font-size: 1.2rem;
+      max-width: 600px;
+    }
+
+    .content {
+      background-color: #f4f4f4;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    .skills, .projects, .contact {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      line-height: 2;
+    }
+
+    .project {
+      background-color: white;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .contact form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact input, .contact textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact button {
+      padding: 10px;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      .top-half h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-half">
+    <h1>Mahfuz Hasan</h1>
+    <p>Professional Web Developer | HTML, CSS, JavaScript, React | Let's build something amazing together!</p>
+  </div>
+
+  <div class="content">
+    <section>
+      <h2>Skills</h2>
+      <div class="skills">
+        <ul>
+          <li>✅ HTML5, CSS3, JavaScript</li>
+          <li>✅ Responsive Web Design</li>
+          <li>✅ React.js, Node.js</li>
+          <li>✅ Bootstrap, Tailwind CSS</li>
+          <li>✅ Git & GitHub</li>
+          <li>✅ SEO Optimization</li>
+          <li>✅ Web Performance & Accessibility</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Personal Portfolio Website</h3>
+          <p>Built a fully responsive personal portfolio website with smooth animations and forest-themed design.</p>
+        </div>
+        <div class="project">
+          <h3>E-commerce Store</h3>
+          <p>Developed an e-commerce website using React and Node.js with payment integration and admin dashboard.</p>
+        </div>
+        <div class="project">
+          <h3>Blog Platform</h3>
+          <p>Created a blog website with Markdown support, comment system, and SEO optimization.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact Me</h2>
+      <div class="contact">
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Rashid Khan | Web Developer | Available on Upwork
+  </footer>
+
+</body>
+</html>
